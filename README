@@ -1,13 +1,13 @@
 SerializeLocationHeader
 ======================
 
-Introduction goes here.
+This plugin simply adds a _location item to your json output if it detects the Location header. This works around a bug in SWFUpload where you are unable to access the Location field from Javascript
 
 
 Example
 =======
 
-Example goes here.
+render :json => @post, :location => url_for(@post)
 
 
 Copyright (c) 2009 Multiplay (UK) Ltd., released under the MIT license
